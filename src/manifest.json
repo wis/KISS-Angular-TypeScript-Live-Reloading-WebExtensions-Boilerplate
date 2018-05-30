@@ -1,0 +1,50 @@
+{
+  "name": "KISS-Angular-TypeScript-Live-Reloading-Boilerplate",
+  "version": "0.0.2",
+  "manifest_version": 2,
+  "description": "KISS Angular TypeScript Live Reloading Boilerplate",
+  "homepage_url": "https://github.com/wis/KISS-Angular-TypeScript-Live-Reloading-Boilerplate",
+  "icons": {
+    "16": "assets/icons/icon16.png",
+    "48": "assets/icons/icon48.png",
+    "128": "assets/icons/icon128.png"
+  },
+  "default_locale": "en",
+  "background": {
+    "page": "index.html#background",
+    "persistent": true
+  },
+  "options_page": "index.html#options",
+  "browser_action": {
+    "default_icon": "assets/icons/icon19.png",
+    "default_title": "browser action demo",
+    "default_popup": "index.html#popup"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html#newtab"
+  },
+  "permissions": [
+    "bookmarks",
+    "chrome://favicon/",
+    "clipboardRead",
+    "clipboardWrite",
+    "contentSettings",
+    "contextMenus",
+    "fileBrowserHandler",
+    "tts",
+    "ttsEngine",
+    "history",
+    "idle",
+    "management",
+    "notifications",
+    "tabs",
+    "geolocation",
+    "storage",
+    "webNavigation",
+    "contextMenus"
+  ],
+  "omnibox": {
+    "keyword": "kiss"
+  },
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
+}
