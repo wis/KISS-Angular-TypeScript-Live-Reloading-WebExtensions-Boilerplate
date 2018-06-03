@@ -1,10 +1,12 @@
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build ---prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
+import '../hot-reload';
 
 export const environment = {
   production: false
 };
+
 
 /*
  * In development mode, to ignore zone related error stack frames such as
