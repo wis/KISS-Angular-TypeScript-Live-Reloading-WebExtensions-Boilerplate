@@ -3,9 +3,10 @@
   "version": "0.0.2",
   "scripts": {
     "ng": "ng",
-    "start": "ng build KATLRWEB --watch=true --base-href=\"./\"",
-    "build": "ng build KATLRWEB --watch=false --target=production --base-href=\"./\"",
-    "package": "ng build KATLRWEB --watch=false --target=production --base-href=\"./\" && bestzip \"bundlee.zip\" \"build/*\"",
+    "start": "ng build KATLRWEB --watch --base-href \"./\"",
+    "start:firefox": "web-ext run --source-dir ./build/",
+    "build": "ng build KATLRWEB --prod --base-href \"./\"",
+    "pack": "npm run build && bestzip \"bundle.zip\" \"build/*\"",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
@@ -21,6 +22,9 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "@types/chrome": "0.0.68",
+    "browser": "^0.2.6",
+    "browser-detect": "^0.2.27",
     "core-js": "^2.5.7",
     "rxjs": "^6.0.0",
     "stream": "0.0.2",
@@ -32,7 +36,7 @@
     "@angular/cli": "^6.0.7",
     "@angular/compiler-cli": "^6.0.3",
     "@angular/language-service": "^6.0.3",
-    "@types/jasmine": "~2.8.6",
+    "@types/jasmine": "^2.8.8",
     "@types/jasminewd2": "~2.0.3",
     "@types/node": "~8.9.4",
     "bestzip": "^1.1.4",
@@ -48,6 +52,7 @@
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1",
     "typescript": "~2.7.2",
+    "web-ext": "^2.7.0",
     "webextension-polyfill-ts": "^0.8.4"
   }
 }
