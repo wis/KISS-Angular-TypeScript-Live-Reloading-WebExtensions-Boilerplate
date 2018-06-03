@@ -1,9 +1,9 @@
 {
-  "name": "KISS-Angular-TypeScript-Live-Reloading-Boilerplate",
+  "name": "KISS-Angular-TypeScript-Live-Reloading-WebExtensions-Boilerplate",
   "version": "0.0.2",
   "manifest_version": 2,
-  "description": "KISS Angular TypeScript Live Reloading Boilerplate",
-  "homepage_url": "https://github.com/wis/KISS-Angular-TypeScript-Live-Reloading-Boilerplate",
+  "description": "KISS Angular TypeScript Live Reloading WebExtensions Boilerplate",
+  "homepage_url": "https://github.com/wis/KISS-Angular-TypeScript-Live-Reloading-WebExtensions-Boilerplate",
   "icons": {
     "16": "assets/icons/icon16.png",
     "48": "assets/icons/icon48.png",
