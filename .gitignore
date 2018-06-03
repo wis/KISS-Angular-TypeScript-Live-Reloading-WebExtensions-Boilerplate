@@ -2,6 +2,7 @@
 
 # compiled output
 /build
+/bundle.zip
 /tmp
 /out-tsc
 
