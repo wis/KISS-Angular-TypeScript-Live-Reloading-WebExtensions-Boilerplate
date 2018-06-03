@@ -17,7 +17,8 @@ The build artifacts will be outputed to `build/` directory.
 
 ## Publishing
 
-run `npm run bundle` to make package for distrubution, upload the bundle.zip file to the extensions web stores.
+run `npm run pack` to pack a bundle/package for publishing/distrubution,
+upload the bundle.zip file to the extension/add-on web stores.
 
 [//]: # "## Running unit tests"
 
