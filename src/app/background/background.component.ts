@@ -8,11 +8,11 @@ import { Component, OnInit } from '@angular/core';
 export class BackgroundComponent implements OnInit {
 
   constructor() {
-    console.log('background component VViewed!')
+    console.log('background component VViewed!');
   }
 
   ngOnInit() {
   }
 
 }
-console.log('background component loaded!')
+console.log('background component loaded!');

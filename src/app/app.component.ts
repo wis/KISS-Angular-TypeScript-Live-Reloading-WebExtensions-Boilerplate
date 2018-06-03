@@ -8,10 +8,5 @@ import { browser, Cookies } from 'webextension-polyfill-ts';
 })
 export class AppComponent {
   title = 'app';
-  constructor() {
-    browser.contextMenus.onClicked.addListener(info => {
-      console.log(info);
-    });
-    //browser.menus.create()
-  }
+  constructor() {}
 }
