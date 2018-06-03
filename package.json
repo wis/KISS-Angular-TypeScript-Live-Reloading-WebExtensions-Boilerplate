@@ -4,7 +4,6 @@
   "scripts": {
     "ng": "ng",
     "start": "ng build KATLRWEB --watch --base-href \"./\"",
-    "start:firefox": "web-ext run --source-dir ./build/",
     "build": "ng build KATLRWEB --prod --base-href \"./\"",
     "pack": "npm run build && bestzip \"bundle.zip\" \"build/*\"",
     "test": "ng test",
